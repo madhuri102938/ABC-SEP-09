@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/ABC/flow.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    min-height: 35px;
+    margin-right: 300px;
+    font-size: 17px;
+}
+.menu{
+        height: 30px;
+        width: 700px;
+        background: #fff;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    display: block;
+    height: 50px;
+    position: relative;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    padding: 0 15px;
+    margin: 5px 0;
+    line-height: 25px;
+    border-left: 1px solid #8c8c8f;
+    border-right: 1px solid #9b9b9e;
+}
+.menu li:first-child a {border-left: none;}
+.menu li:last-child a {border-right: none;}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(135, 23, 135);
+    padding: 9% 46%;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: #a82626;
+    color: #000;
+}
+.title{
+     position: absolute;
+     top: 37%;
+     left: 30%;
+}
+.title h1{
+    color: ghostwhite;
+    font-size: 60px;
+}
+.bi bi-house-door-fill{
+    top: 80px;
+    right: 100px;
+}
